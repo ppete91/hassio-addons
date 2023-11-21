@@ -9,12 +9,14 @@
   "init": false,
   "uart": true,
   "ports": {
-    "8888/tcp": 8888,
-    "9999/tcp": 9999
+    "16002/tcp": 16002,
+    "18000/tcp": 18000,
+    "27789/tcp": 27789
   },
   "ports_description": {
-    "8888/tcp": "Web Interface",
-    "9999/tcp": "OSCAM Server"
+    "16002/tcp": "Web Interface",
+    "18000/tcp": "#1 Server",
+    "27789/tcp": "#2 Server"
   },
   "map": [
     "config:rw"
